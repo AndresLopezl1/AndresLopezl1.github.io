@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px;
+        }
+        .profile-image-container {
+            width: 150px; /* Ajusta el tamaño según lo necesites */
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px auto; /* Centrar horizontalmente y añadir espacio debajo */
+            border: 5px solid #ddd; /* Opcional: añadir un borde al círculo */
+        }
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Asegura que la imagen cubra el círculo sin deformarse */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .project-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-brief p {
+            margin-bottom: 10px;
+        }
+        .contact-brief a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-brief a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andrés López</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="profile-image-container">
+        <img src="profilepicture.jpg" class = "profile-image">
+    </div>
+
+    <section id="bio">
+        <h2>A brief description of myself</h2>
+        <p>My whole life, I've been intrigued by how a computer can convert a simple electrical signal into thousands of different forms of content and entertainment. This led me to try to understand them, and I began my formation as an Electronic Engineer. Along the way, I've become interested in design and how, through technologies powered by electronics, we can create things that not only fulfill a function but also make human beings feel good: photography, graphic design, video editing, illustrations, cinema. All the things that intrigue and fascinate me can be reflected in web development. That's why I dedicate myself to learning about it every day.</p>
+    </section>
+
+
+    <section id="contact-brief">
+        <h2>Contact</h2>
+        <div class="contact-brief">
+            <p>Interested in collaborating or learning more? Don't hesitate to contact me!</p>
+            <p>You can find more contact informacion <a href="contact.html">here</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Andrés López. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
